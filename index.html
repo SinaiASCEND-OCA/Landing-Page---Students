@@ -19,6 +19,7 @@ body{font-family:var(--sans);color:var(--ink);font-size:15px;line-height:1.5;-we
   min-height:100vh;display:flex;flex-direction:column}
 
 /* faint ASCEND peaks in the background (same as the Hub): alludes to the mark without showing it */
+#ascend-masthead{z-index:1}   /* keep the faint peaks behind the masthead */
 .ridge{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0;
   background:url("https://sinaiascend.github.io/Dashboard---HUB/ascend-ridge.svg") no-repeat right -4vw bottom -2vh/min(1100px,120vw) auto;opacity:.045}
 
