@@ -21,7 +21,7 @@ body{font-family:var(--sans);color:var(--ink);font-size:15px;line-height:1.5;-we
 /* faint ASCEND peaks in the background (same as the Hub): alludes to the mark without showing it */
 #ascend-masthead{z-index:1}   /* keep the faint peaks behind the masthead */
 .ridge{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0;
-  background:url("https://sinaiascend.github.io/Dashboard---HUB/ascend-ridge.svg") no-repeat right -4vw bottom -2vh/min(1100px,120vw) auto;opacity:.045}
+  background:url("/Dashboard---HUB/ascend-ridge.svg") no-repeat right -4vw bottom -2vh/min(1100px,120vw) auto;opacity:.045}
 
 .shell{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;
   justify-content:center;padding:48px 22px}
@@ -70,20 +70,20 @@ a.card.has-cover{display:flex;gap:16px;align-items:flex-start}
 
 <main class="shell">
   <div class="head">
-    <img class="logo" alt="ASCEND Curriculum" src="https://sinaiascend.github.io/Dashboard---HUB/ascend-wordmark-white.png">
+    <img class="logo" alt="ASCEND Curriculum" src="/Dashboard---HUB/ascend-wordmark-white.png">
     <div class="eyebrow">Office of Curricular Affairs</div>
     <h1>Student Dashboard</h1>
     <p>Choose a tool to get started.</p>
   </div>
 
   <div class="cards">
-    <a class="card" href="https://sinaiascend.github.io/Dashboard---Students/">
+    <a class="card" href="/Dashboard---Students/">
       <div class="cardkicker">Curriculum Map</div>
       <div class="cardtitle">ASCEND Navigator</div>
       <div class="cardblurb">Trace the curriculum from phase to module to session to objective. Explore sessions, alignment, and program objectives.</div>
       <div class="cardgo">Open Navigator &rarr;</div>
     </a>
-    <a class="card" href="https://sinaiascend.github.io/Dashboard---Electives/">
+    <a class="card" href="/Dashboard---Electives/">
       <div class="cardkicker">Career Exploration</div>
       <div class="cardtitle">Electives/NEXUS Catalog Explorer</div>
       <div class="cardblurb">Browse the ASCEND electives catalog and NEXUS Learning offerings. Filter by field, Area of Concentration, and schedule, and plan early.</div>
@@ -114,6 +114,6 @@ a.card.has-cover{display:flex;gap:16px;align-items:flex-start}
 </main>
 
 <div class="foot">Icahn School of Medicine at Mount Sinai &middot; ASCEND Curriculum &middot; Internal program-evaluation use</div>
-<script src="https://sinaiascend.github.io/Dashboard---HUB/ascend-mast.js" data-title="Student Dashboard" data-site="ASCEND · For students" data-hide=".head"></script>
+<script src="/Dashboard---HUB/ascend-mast.js" data-title="Student Dashboard" data-site="ASCEND · For students" data-hide=".head"></script>
 </body>
 </html>
